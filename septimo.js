@@ -95,12 +95,12 @@ contarModelos2020(carros1);
 
 let nombres = ["argentina", "bolivia", "colombia"];
 
-function convertirMayusculas(arr, callback) {
+function convertirAMayusculas(arr, callback) {
     return callback(arr);
 }
 
-const aMayusculas = (array) => array.map(pais => pais.toUpperCase());
+const Mayuscula = (array) => array.map(pais => pais.toUpperCase());
 
 console.log("Paises en mayúsculas:");
-console.log(convertirMayusculas(nombres, aMayusculas));
+console.log(convertirAMayusculas(nombres, Mayuscula));
 
